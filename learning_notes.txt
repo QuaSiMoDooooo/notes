@@ -1,0 +1,34 @@
+learning_notes
+
+Git 保存修改版本而非保存文件版本
+保存文本文件修改 非二进制文件(图片、Microsoft-word等)
+
+工作区-暂存区-版本库
+
+DAY1
+创建一个git仓库repository
+mkdir
+cd
+git init
+
+往repos里添加文件
+git add
+git commit -m " "
+
+删除文件
+rm
+git rm
+删除修改
+git restore
+git restore -staged
+
+转到对应版本文件
+git reset --hard HEAD^
+git reset --hard 版本号前几位
+
+查看仓库状态
+git status
+git diff
+
+###
+发现用linux bash也能使用 git命令
