@@ -32,3 +32,33 @@ git diff
 
 ###
 发现用linux bash也能使用 git命令
+
+
+
+DAY2
+远端库
+在github中添加本地公开密匙 .ssh.pub
+
+将git本地版本库 上传/更新到 github远端库上 (本地和GitHub上都有相应文件夹)
+创建连接 git remote add origin git@git.com:QuaSiMoDooooo/github_git_名称     origin名称可改
+git push -u(第一次) origin master
+
+将github上远端库拷贝一份到本地
+git clone github_git_名称 
+
+创建分支branch
+git checkout -b dev(the name of branch)
+: git branch dev + git checkout dev 创建并切换
+
+git merge dev 将dev分支合并到当前branch（master）
+
+git branch 查看分支
+git checkout 切换
+
+git branch -d dev 删除dev分支
+
+
+
+
+
+
